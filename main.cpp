@@ -14,7 +14,7 @@ int main()
     clock_t start, stop;
 
     char sKey[] = "fujingjing";
-    const char sSrc[1024] = "China Mobile (Shenzhen) Limited";
+    const char sSrc[1024] = "China Mobile (Shenzhen) Limited 中国移动(深圳)有限公司 2003/3/20成立";
     char sEncrypt[1024] = {0};
     char sDecrypt[1024] = {0};
 
@@ -48,6 +48,8 @@ int main()
     {
         cout << "原字符串和解密字符串不相同" << endl;
     }
+
+    getchar();
 
     return 0;
 }
